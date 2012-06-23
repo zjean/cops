@@ -155,14 +155,14 @@
             <?php
                 if (array_key_exists("epub", $entry->book->format)) {
             ?>    
-                <div class="button buttonEffect"><a href="<?php echo "fetch.php?id=" . $entry->book->id . "&type=" . urlencode ($entry->book->format ["epub"]) ?>">EPUB</a></div>
+                <div class="button buttonEffect"><a href="<?php echo "fetch.php?id=" . $entry->book->id . "&type=epub"]) ?>">EPUB</a></div>
             <?php
                 }
             ?>
             <?php
                 if (array_key_exists("pdf", $entry->book->format)) {
             ?>    
-				<div class="button buttonEffect"><a href="<?php echo "fetch.php?id=" . $entry->book->id . "&type=" . urlencode ($entry->book->format ["pdf"]) ?>">PDF</a></div>                
+				<div class="button buttonEffect"><a href="<?php echo "fetch.php?id=" . $entry->book->id . "&type=pdf"]) ?>">PDF</a></div>                
             <?php
                 }
             ?>
